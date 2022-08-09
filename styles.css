@@ -1,0 +1,94 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.left {
+  flex: 55%;
+
+  object-fit: cover;
+}
+.img-main {
+  width: 100%;
+  height: 100vh;
+}
+.right {
+  flex: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(269.24deg, #1d4576 14.64%, #000000 40.37%);
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 59px;
+  /* identical to box height */
+  margin-bottom: 22px;
+
+  color: #ffffff;
+}
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.5em;
+  line-height: 39px;
+
+  color: #efefef;
+}
+
+a {
+  display: flex;
+  text-decoration: none;
+  padding: 13px 22px;
+  background: linear-gradient(
+    97.23deg,
+    rgba(217, 217, 217, 0.4) 27.27%,
+    rgba(217, 217, 217, 0.08) 94.37%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+a:hover {
+  background: linear-gradient(
+    97.23deg,
+    rgba(217, 217, 217, 0.08) 27.27%,
+    rgba(217, 217, 217, 0.4) 94.37%
+  );
+}
+a svg:hover {
+  opacity: 0.5;
+}
+svg {
+  margin-left: 9px;
+}
+.buttons {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: left;
+  gap: 24px;
+}
+.btn:hover {
+  opacity: 0.5;
+}
+.dust {
+  opacity: 0.7;
+
+  position: absolute;
+  bottom: -100px;
+}
